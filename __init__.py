@@ -4,12 +4,8 @@ app = Flask(__name__)
 type_of_cohere_model = ["xlarge-smart", "romantic", "test"]
 
 @app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p><br/><a href=\"/home\">link to home page</a>"
-
-@app.get("/home")
 def prompt():
-    return render_template('base.html.j2', title="custom title wow", models=type_of_cohere_model)
+    return render_template('base.html.j2', title="Hacku", models=type_of_cohere_model)
 
 @app.post("/<category>/<prompt>")
 def generate(category=None, prompt=""):
