@@ -39,8 +39,8 @@ Voici comment installer ce projet:
 <i> (English below) </i>
 
 ## Hacku Team
-* Zineb
-* Zita
+* Zineb Alaoui
+* Zita Torocsik
 * Philippe Lemieux
 * Anthony Martin
 
