@@ -1,8 +1,8 @@
 # L'humain et la technologie: pallier sur l'appartenance et l'amour de l'échelle de Maslow
 
 ## Équipe Hacku
-* Zineb
-* Zita
+* Zineb Alaoui 
+* Zita Torocsik
 * Philippe Lemieux
 * Anthony Martin
 
