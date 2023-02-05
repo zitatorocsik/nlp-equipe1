@@ -1,0 +1,143 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ccb9bc;
+  color: #fff;
+}
+h1 {
+  font-family: "century-gothic", sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "articulat-cf", sans-serif;
+font-weight: 800;
+font-style: normal;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  padding: 3% ;
+  height: 100vh;
+  
+}
+
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 85%;
+  padding-left: 20%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+#features {
+  padding: 7%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#features p {
+  color: #8f8f8f;
+  font-family: "Montserrat";
+}
+
+@media screen and (max-width: 1000px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+#footer {
+  padding: 5% 17%;
+  background-color: #fff;
+  color: grey;
+  text-align: center;
+}
+
+
+#user-input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 20px;
+  width: 60%;
+}
+
+#show-button,
+#prompt-input {
+  padding: 10px;
+  margin: 5px;
+  size: 400px;
+}
+
+.password-cracker {
+  text-align: center;
+}
+
+.haku {
+  background-color: #c2acaf;
+  height: 100vh;
+}
+
+.loader {
+  margin: 0 auto;
+  border: 20px solid #fff; /* Light grey */
+  border-top: 20px solid #8f8f8f; /* Blue */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: fadeIn 2s, spin 2s linear infinite;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
