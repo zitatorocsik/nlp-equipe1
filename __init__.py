@@ -16,49 +16,36 @@ def prompt():
 @app.post("/<category>/<prompt>")
 def generate(category=None, prompt=""):
     base_prompt = """Write me a poem about: birds, sky
-                    Haiku:
-                    a skein of birds
-                    twines across the sky
-                    the northbound train departs
+Haiku:
+a skein of birds
+twines across the sky
+the northbound train departs
 
-                    ---
-                    Write me a poem about: headlights, fade
-                    Haiku:
-                    morning commute-
-                    headlights fade
-                    in the whiteout
+---
+Write me a poem about: headlights, fade
+Haiku:
+morning commute-
+headlights fade
+in the whiteout
 
-                    ---
-                    Write me a poem about: ferry
-                    Haiku:
-                    homebound ferry
-                    thoughts zigzagging
-                    with the terns
+---
+Write me a poem about: ferry
+Haiku:
+homebound ferry
+thoughts zigzagging
+with the terns
 
-                    ---
-                    Write me a poem about: leaves
-                    Haiku: 
-                    yellow walnut leaves
-                    slowly appear on the lawn
-                    early morning light
+---
+Write me a poem about: leaves
+Haiku: 
+yellow walnut leaves
+slowly appear on the lawn
+early morning light     
 
-                    --- 
-                    Write me a poem about: """
-    response = co.generate(
-        model='medium',
-        prompt=base_prompt + prompt.strip() + "\nHaiku:",
-        max_tokens=75,
-        temperature=0.4,
-        stop_sequences=["---"],
-        frequency_penalty=0.1
-    )
-    ai_haiku = 'Haiku: {}'.format(response.generations[0].text)
-    count = -2
-    for c in ai_haiku:
-        if c == '\n':
-            count = count + 1
+--- 
+Write me a poem about: """
 
-    while count != 3:
+    while True:
         response = co.generate(
             model='medium',
             prompt=base_prompt + prompt.strip() + "\nHaiku:",
@@ -73,6 +60,9 @@ def generate(category=None, prompt=""):
         for c in ai_haiku:
             if c == '\n':
                 count = count + 1
+        
+        if count == 3:
+            break
 
     ai_haiku_lines = ai_haiku.split('\n')
     ai_haiku_final = ai_haiku_lines[1] + "<br>" + \
