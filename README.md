@@ -11,7 +11,7 @@
 Ce projet qui s'appuie sur le thème de l'humain et la technologie, plus précisément, sur le pallier de l'appartenance et de l'amour de l'échelle de Maslow, a été réalisé à l'occasion de l'événement PolyHacks 2023. Cette application génère des Haiku pour vous selon vos besoins. Décrivez une émotion que vous sentez sur le moment et elle peut révéler quelque chose sur vous.
 
 
-## Fonctionnement:
+## Fonctionnement
 L'utilisateur a accès une application web. Cet API donne l'option à l'utilisateur d'entrer une phrase en lien avec l'amour et l'appartenance de l'échelle de Maslow. Ce texte est ensuite transféré sur le backend qui utilise Python. Par la suite, des modèles de traitement du langage naturel fournis par Cohere et renforcés par une base de données sont utilisés pour interpréter un Haiku à partir du texte reçu. Le texte généré est retourné finalement à l'utilisateur. 
 
 
@@ -29,7 +29,7 @@ Pour en connaître davantage sur ces technologies, voici leurs liens
 
 ## Installation
 ## How to install this project 
-Voici comment installer ce projet:
+Voici comment installer ce projet
 1. Cloner ce projet
 2. Vérifier que la version 3.7 ou plus de Python soit installée: `$ python --version`
 3. Installer Flask avec pip: `$ pip install Flask`
