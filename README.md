@@ -1,5 +1,5 @@
 # L'humain et la technologie: pallier sur l'appartenance et l'amour de l'échelle de Maslow
-
+<img src="static/website-demo.png" alt="haiku website" width="500">
 ## Équipe Hacku
 * Zineb Alaoui 
 * Zita Torocsik
