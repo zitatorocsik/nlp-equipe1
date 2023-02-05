@@ -80,8 +80,6 @@ h3 {
   font-family: "Montserrat";
 }
 
-
-}
 @media screen and (max-width: 1000px) {
   .title-image {
     position: static;
@@ -122,4 +120,24 @@ h3 {
 .haku {
   background-color: #c2acaf;
   height: 100vh;
+}
+
+.loader {
+  margin: 0 auto;
+  border: 20px solid #fff; /* Light grey */
+  border-top: 20px solid #8f8f8f; /* Blue */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: fadeIn 2s, spin 2s linear infinite;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

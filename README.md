@@ -1,5 +1,6 @@
 # nlp-equipe1
-This branch isn't meant to see the light of day and meant has a demo for the tool we're using. ty
+~~This branch isn't meant to see the light of day and meant has a demo for the tool we're using. ty~~
+This branch will  end up seeing the light of day.
 
 ## Dependencies
 - cohere
