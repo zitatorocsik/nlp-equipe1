@@ -9,7 +9,7 @@
 
 
 ## Projet Haiku
-Ce projet qui s'appuie sur le thème de l'humain et la technologie, plus précisément, sur le pallier de l'appartenance et de l'amour de l'échelle de Maslow, a été réalisé à l'occasion de l'événement PolyHacks 2023. Cette application génère des Haiku pour vous selon vos besoins. Décrivez une émotion que vous sentez sur le moment et elle peut révéler quelque chose sur vous.
+Ce projet qui s'appuie sur le thème de l'humain et la technologie, plus précisément, sur le pallier de l'appartenance et de l'amour de l'échelle de Maslow, a été réalisé à l'occasion de l'événement [PolyHacks 2023](https://polyhacks-2023-17336.devpost.com) ([Lien Devpost](https://devpost.com/software/hacku-uxfznl#updates)). Cette application génère des Haiku pour vous selon vos besoins. Décrivez une émotion que vous sentez sur le moment et elle peut révéler quelque chose sur vous.
 
 
 ## Fonctionnement
@@ -47,7 +47,7 @@ Voici comment installer ce projet
 
 
 ## Haiku Project
-This project is centralized on the theme of humans and technology, more specifically, on the level of belonging and love on the Maslow's hierachy of needs. It was made for the event of PolyHacks 2023. This application generates Haiku for you according to your needs. Describe an emotion that you are feeling in the moment and it may reveal something about you.
+This project is centralized on the theme of humans and technology, more specifically, on the level of belonging and love on the Maslow's hierachy of needs. It was made for the event of [PolyHacks 2023](https://polyhacks-2023-17336.devpost.com) ([Devpost link](https://devpost.com/software/hacku-uxfznl#updates)). This application generates Haiku for you according to your needs. Describe an emotion that you are feeling in the moment and it may reveal something about you.
 
 ## How does it work?
 The user has access to the web application. This API gives the user the option to enter a sentence that mostly relates to love and belonging from the Maslow scale. This prompt text is then transferred to the backend which uses Python. Subsequently, natural language processing models provided by Cohere and enhanced by a database are used to interpret a Haiku from the received text. The generated text is eventually returned to the user.
